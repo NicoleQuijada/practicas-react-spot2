@@ -15,7 +15,8 @@ require('../../mocks');
 /**
  * Routers
  */
-const products = require('../pages/forms');
+const forms = require('../pages/forms');
+const products = require('../pages/products');
 
 /**
  * Use global middlewares
@@ -33,6 +34,7 @@ router.use(polyfillsMiddleware(config.polyfillLimits));
  * Mount routers
  */
 router.use('/products', products);
+router.use('/forms', forms)
 /**
  * Expose router
  */

@@ -42,7 +42,7 @@ function View(props){
             console.log("%cClase page is loaded!","color:green")
             `}</Script>
             <Script src="vendor.js" />
-            <Script src="products.js"/>
+            <Script src="forms.js"/>
             
         </>
     );
